@@ -1,0 +1,164 @@
+/* default-css-START */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #161513;
+  color: #c5c5c5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+/* default-css-END */
+
+/* navbar */
+header {
+  background: #222;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar div {
+  padding: 30px 20px;
+}
+.navbar a {
+  color: #ffffff;
+}
+
+/* section-Landing-Page(about) */
+.avatar img {
+  width: 250px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about-text {
+  width: 654px;
+  margin: 30px auto;
+}
+
+.about-text h1 {
+  font-size: 55px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.about-text h1 > span {
+  background: var(
+    --Primary-Gradient,
+    linear-gradient(116deg, #ff8660 71.79%, #9a33ff 95.51%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-text p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.about-btn {
+  margin-top: 30px;
+}
+
+.btn-primary {
+  width: 195px;
+  height: 64px;
+  font-size: 22px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background: solid #fff;
+  margin-right: 20px;
+}
+
+.btn-sceondary {
+    background: none;
+  width: 204px;
+  height: 64px;
+  font-size: 22px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+/* experience with skills */
+.experience-with{
+  text-align: center;
+  text-transform: capitalize ;
+}
+
+.experience-with-lang{
+  display: flex;
+ width: 500px;
+ margin: 50px auto;
+ justify-content: space-between;
+ cursor: pointer;
+}
+
+.experience-with-lang img {
+  width: 42px;
+} 
+
+/* footer */
+
+footer {
+  background: #191919;
+}
+
+footer h2{
+  color:#ffffff;
+  font-size: 24px;
+}
+
+footer p{
+  font-size: 15px;
+
+}
+
+.email-container{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.email-container img{
+  margin-right:10px ;
+}
+
+.social-links{
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-links img{
+  margin-right: 20px;
+}
