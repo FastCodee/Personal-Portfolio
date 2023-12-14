@@ -164,8 +164,11 @@ nav {
 .project-title h3 {
   color: #fff;
 }
-
-
+.project-title p a {
+  color: #c5c5c5;
+  text-decoration: none;
+}
+/* Project section End */
 
 
 
