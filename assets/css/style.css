@@ -128,6 +128,53 @@ nav {
   width: 42px;
 } 
 
+
+/* Project section */
+
+.primary-heading {
+  text-align: center;
+  font-size: 35px;
+}
+.heading-project {
+  background: var(
+    --Orange-Gradient,
+    linear-gradient(180deg, #ff8660 0%, #d5491d 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.project-item {
+  background: #2a2a2a;
+  margin: 20px;
+  border-radius: 18px 18px 0 0;
+}
+.project-item img {
+  width: 100%;
+  border-radius: 18px 18px 0 0;
+}
+.project-title {
+  padding: 15px;
+}
+.project-title h3 {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 footer {
